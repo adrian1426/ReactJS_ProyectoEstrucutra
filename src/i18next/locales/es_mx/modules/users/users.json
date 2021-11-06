@@ -1,0 +1,41 @@
+{
+  "header": {
+    "appName": "Usuarios",
+    "appTitle": "Listado de Usuarios",
+    "options": {
+      "addUser": "Agregar Usuario"
+    }
+  },
+  "filters": {
+    "status": "Seleccione status...",
+    "rol": "Seleccione perfil...",
+    "dateStart": "Registro desde...",
+    "dateEnd": "Registro hasta...",
+    "actionClean": "Limpiar Filtros",
+    "actionFilter": "Filtrar"
+  },
+  "list": {
+    "email": "Correo Electrónico",
+    "idUserEdit": "ID Usuario Edición",
+    "profile": "Perfil",
+    "isActive": "Estatus",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "createdAt": "Fecha de Creación",
+    "updatedAt": "Fecha de Modificación",
+    "company": "Empresa",
+    "actionEdit": "Editar",
+    "actionDelete": "Baja de usuario",
+    "filterWarn": "¡No se encontró información con el filtro establecido!"
+  },
+  "form": {
+    "email": "Correo electrónico...",
+    "status": "Estatus",
+    "rol": "Seleccione rol...",
+    "company": "Seleccione empresa...",
+    "validationEmail": "Email incorrecto",
+    "addAction": "Agregar Usuario",
+    "editAction": "Editar Usuario",
+    "cancelAction": "Cancelar"
+  }
+}

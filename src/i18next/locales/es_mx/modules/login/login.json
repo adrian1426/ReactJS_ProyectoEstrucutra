@@ -1,0 +1,7 @@
+{
+  "selectCountry": {
+    "title": "Seleccione el país donde desea iniciar sesión",
+    "actionCancel": "Cancelar",
+    "actionAccept": "Aceptar"
+  }
+}

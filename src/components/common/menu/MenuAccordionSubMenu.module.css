@@ -1,0 +1,27 @@
+.ContainerSubMenu{
+  margin: 6px 0px;
+  width: 100%;
+  background: rgba(245, 246, 247, 0.6);
+}
+
+.ContainerSubMenu_ShowDivider{
+  height: 11px;
+}
+
+.ContainerSubMenu_HideDivider{
+  height: 0px;
+}
+
+.ContainerSubMenu_HeightAuto{
+  height: auto;
+}
+
+.ContainerSubMenu_Items{
+  display: flex;
+  padding: 11px;
+}
+
+.ContainerSubMenu_Items_Divider{
+  border: 1px solid #FFF; 
+  margin: 5px 0px;
+}

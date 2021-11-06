@@ -1,0 +1,11 @@
+.Buttom{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: calc(calc(100% - 40px) / 5) !important;
+  border-radius: 15px !important;
+  justify-content: center !important;
+}
+
+.Buttom_MarginRight{
+  margin-right: 10px !important;
+}

@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+      commands:
+        - echo Init build...
+        - npm ci
+        - 'npm run test a -- --watchAll=false --coverage'
+  pre_build:
+      commands:
+        - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.3.0.1492-linux.zip
+        - unzip sonar-scanner-cli-3.3.0.1492-linux.zip
+        - export PATH=$PATH:./sonar-scanner-3.3.0.1492-linux/bin/
+        - sonar-scanner
+        - rm -rf sonar-scanner-cli-3.3.0.1492-linux.zip
+        - rm -rf sonar-scanner-cli-3.3.0.1492-linux
+  build:
+    commands:
+        - echo Build started on `date`
+        - npm run build
+  post_build:
+    commands:
+        - echo Build completed on `date`
+artifacts:
+  files:
+    - "**/*"
+  base-directory: build

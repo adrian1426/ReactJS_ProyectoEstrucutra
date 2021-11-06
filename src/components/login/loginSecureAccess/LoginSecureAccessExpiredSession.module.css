@@ -1,0 +1,35 @@
+.grow{
+  flex-grow: 1;
+}
+
+.partLogout{
+  display: flex;
+  align-items: center;
+}
+
+.buttonIcon{
+  background: #DDD !important;
+  margin-right: 10px !important;
+  padding: 5px !important;
+}
+
+.home{
+  margin-top: 64px;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center
+}
+
+.home__title{
+  font-weight: 500 !important; 
+  font-size: 28px !important;
+}
+
+.home__btn{
+  width: 230px !important; 
+  margin-top: 24px !important; 
+  margin-bottom: 70px !important; 
+}

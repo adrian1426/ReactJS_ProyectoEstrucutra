@@ -1,0 +1,27 @@
+.box{
+
+    margin-top:10px;
+    height: 60px;    
+    background: #FFFFFF;
+    border: 0.5px solid #003B4A;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+label{
+    font-family: sans-serif;
+    color: #003B4A;
+}
+
+.subTitleText{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.titleText{
+    font-size:15px
+}
+.textBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 39px;
+}

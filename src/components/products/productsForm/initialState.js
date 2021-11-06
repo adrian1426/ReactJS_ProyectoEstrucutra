@@ -1,0 +1,77 @@
+export const initialStateCommission = {
+  name: '',
+  collectMoment: null,
+  fixedVariable: null,
+  driver: null,
+  minType: null,
+  minDriver: null,
+  maxType: null,
+  maxDriver: null,
+  driverTerm: null,
+  commissionCost: null,
+  vat: null,
+  percentageSaved: 0,
+  paymentOrder: 0
+};
+
+export const initialStateCommissionError = {
+  name: false,
+  collectMoment: false,
+  fixedVariable: false,
+  driver: false,
+  minType: false,
+  minDriver: false,
+  maxType: false,
+  maxDriver: false,
+  driverTerm: false,
+  commissionCost: false,
+  vat: false,
+  percentageSaved: false,
+  paymentOrder: false
+};
+
+export const initialStateProduct = {
+  name: '',
+  isProductAdvance: false,
+  companyRef: null,
+  annualRate: null,
+  contractedTerm: null,
+  supplementaryTermFactor: null,
+  periodicityRef: null,
+  ivaRate: null,
+  interestCapitalization: null,
+  gracePeriod: null,
+  annualSubstituteInterest: 0,
+  moratoriumPeriod: null,
+  annualMoratoriumInterest: 0,
+  annualMoratoriumInterestIVA: 0,
+  moratoriumInterestPeriod: 0,
+  catWithoutIVA: null,
+  interestAnnualIVA: 0,
+  supplementaryTerm: 0,
+  periodRate: 0,
+  annualSubstituteInterestIVA: 0,
+  minimunTermApp: null,
+  maximunTermApp: null,
+  minRetentionPercentage: null,
+  maxRetentionPercentage: null,
+  commissions: []
+};
+
+export const initialStateProductError = {
+  name: false,
+  companyRef: false,
+  annualRate: false,
+  contractedTerm: false,
+  supplementaryTermFactor: false,
+  periodicityRef: false,
+  ivaRate: false,
+  interestCapitalization: false,
+  gracePeriod: false,
+  moratoriumPeriod: false,
+  catWithoutIVA: false,
+  minimunTermApp: false,
+  maximunTermApp: false,
+  minRetentionPercentage: false,
+  maxRetentionPercentage: false,
+};

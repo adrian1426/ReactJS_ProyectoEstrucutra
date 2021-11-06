@@ -1,0 +1,15 @@
+.Form{
+  width: 435px;
+}
+
+.Form_Status{
+  margin: 10px 0px;
+}
+
+.Form_Business{
+  margin-top: 17px;
+}
+
+.ListBox{
+  max-height: 220px !important;
+}

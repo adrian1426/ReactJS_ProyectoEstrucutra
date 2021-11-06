@@ -1,0 +1,12 @@
+{
+  "toolbar": {
+    "search": "Procurar por"
+  },
+  "header": {
+    "actions": "Ações"
+  },
+  "pagination": {
+    "labelRowsPerPage": "Linhas por página",
+    "optionAll": "Tudo"
+  }
+}

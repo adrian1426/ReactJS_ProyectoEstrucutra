@@ -1,0 +1,93 @@
+.Filters{
+  padding: 22px;
+}
+
+.Filters_Input{
+  display: flex;
+}
+
+.Filters_Input_Element{
+  width: calc(20% - 5px) !important; 
+  margin-right: 5px !important; 
+}
+
+.Filters_Input_MulElement{
+  margin-right: 5px !important; 
+}
+
+.Filters_Input_MulElement input{
+  padding: 1.5px 0px !important;
+}
+
+.SpaceDate{
+  margin-right: 5px !important;
+  width: 50%;
+}
+
+.Filters_Actions{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Actions {
+  width: 180px;
+  margin-left: .3rem;
+  float: right;
+  margin-top: .3rem;
+}
+
+/* inputs de filtros*/
+.Input_Filter_Text{
+  width: 100%;
+}
+.Grid{
+  width: 20%;
+}
+.Grid_Date_Range{
+  width: 40%;
+}
+.Grid_Date_Range_Input{
+  width: 50%;
+}
+
+/* table */
+.Content_List{
+  padding-top: 3rem;
+}
+
+/* estilos para el visor de documentos */
+.NavbarWrapper {
+  background-color:#FFF !important;
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 0 .1rem #9e9e9e ;
+}
+.Button{
+    color: #000;
+    font-size: 0.75rem;
+    border-radius: 2px;
+    border-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+.Button span {
+    height: 100% !important;
+}
+.Canvas{
+    margin-top: 1rem;
+}
+
+.PageIndicator{
+    color: #000;
+    background: transparent;
+    vertical-align: top;
+}
+
+.PageIndicator span {
+    height: 100% !important; 
+ }
+
+ button .Button :disabled{
+    color: #FFF;
+ }

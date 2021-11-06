@@ -1,0 +1,13 @@
+.FormControl{
+    width: 100%;
+}
+.Filters{
+    padding: 1rem;
+}
+
+.Filters_Input_Element{
+  margin-right: 5px;
+}
+.Filters_Input_Element input{
+  padding: .1rem 0 !important;
+}

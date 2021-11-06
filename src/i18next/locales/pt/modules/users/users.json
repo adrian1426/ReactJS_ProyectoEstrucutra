@@ -1,0 +1,9 @@
+{
+  "header": {
+    "appName": "Usuários",
+    "appTitle": "Lista de Usuários",
+    "options": {
+      "addUser": "Adicionar Usuário"
+    }
+  }
+}

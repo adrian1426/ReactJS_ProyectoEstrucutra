@@ -1,0 +1,13 @@
+{
+  "header": {
+    "appName": "Products",
+    "appTitle": "Product Listing",
+    "options": {
+      "addProduct": "Add Product"
+    }
+  },
+  "confirmations": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}

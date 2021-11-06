@@ -1,0 +1,26 @@
+.SubContainer{
+  padding: 26px 26px;
+}
+
+.marginBottom{
+  margin-bottom: 10px
+}
+
+.TextField label,input{
+  color: #003B4A !important;
+}
+
+.Comissions{
+  margin-top: 26px;
+}
+
+.Action_Send{
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Action_Send_Btn{
+  margin-left: 20px !important;
+  min-width: 230px !important;
+}

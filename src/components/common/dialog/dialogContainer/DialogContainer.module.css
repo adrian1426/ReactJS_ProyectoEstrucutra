@@ -1,0 +1,21 @@
+.Paper{
+  border-radius: 10px !important;
+}
+
+.Dialog{
+  padding: 20px 31px;
+}
+
+.Dialog_Close{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -18px;
+  margin-right: -29px;
+}
+
+.Dialog_Title{
+  font-weight: 500 !important; 
+  font-size: 20px !important; 
+  line-height: 22px !important;
+  min-height: 22px;
+}

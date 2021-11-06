@@ -1,0 +1,16 @@
+.Container{
+  width: 500px;
+}
+
+.SpaceTop{
+  margin-top: 10px;
+}
+
+.DivMultiElement{
+  display: flex;
+  justify-content: space-between;
+}
+
+.DivMultiElement__Width{
+  width: 49%;
+}

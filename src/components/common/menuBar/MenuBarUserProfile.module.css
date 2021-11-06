@@ -1,0 +1,33 @@
+.Paper{
+  border-radius: 10px !important;
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Container_Info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 0px;
+}
+
+.Container_Info_Item{
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.Container_Info_Item_Icon{
+  padding: 4px; 
+  font-size: 18px !important; 
+  margin-right: 5px;
+}
+
+.Container_Button{
+  margin-top: 5px !important;
+  box-shadow: none !important;
+}

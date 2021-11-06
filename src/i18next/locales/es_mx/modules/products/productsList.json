@@ -1,0 +1,39 @@
+{
+  "header": {
+    "appName": "Productos",
+    "appTitle": "Listado de Productos",
+    "options": {
+      "addProduct": "Agregar Producto"
+    }
+  },
+  "table": {
+    "column1": "Nombre",
+    "column2": "Empresa",
+    "column3": "Tasa de interés anual",
+    "column4": "Plazo contratado",
+    "column5": "Plazo complementario",
+    "column6": "Periodicidad",
+    "column7": "Tasa del periodo",
+    "column8": "Tasa de IVA",
+    "column9": "Capitaliza interés",
+    "column10": "Periodo moratorio",
+    "column11": "Tasa de interés moratoria",
+    "actions": {
+      "edit": "Editar",
+      "delete": "Eliminar producto"
+    }
+  },
+  "modalConfirm": {
+    "textPrimary": "Eliminar Producto",
+    "textSecundary": "¿Está seguro de eliminar el producto <b>{{name}}</b>?"
+  },
+  "messages": {
+    "errorGet": "¡No se encontraron productos en el sistema.!",
+    "successDelete": "¡Producto {{name}} eliminado correctamente!",
+    "errorDelete": "¡Error: {{detail}}!"
+  },
+  "confirmations": {
+    "yes": "Sí",
+    "no": "No"
+  }
+}

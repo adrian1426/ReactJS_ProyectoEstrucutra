@@ -1,0 +1,31 @@
+.Filters{
+    padding: 22px;
+  }
+  
+  .Filters_Input{
+    display: flex;
+  }
+  
+  .Filters_Input_Element{
+    width: calc(20% - 5px) !important; 
+    margin-right: 5px !important; 
+  }
+  
+  .Filters_Input_MulElement{
+    width: calc(20% - 5px) !important; 
+    margin-right: 5px !important; 
+   }
+  
+  .Filters_Input_MulElement input{
+   padding: 1.5px 0px !important;
+  }
+  
+  .SpaceDate{
+    margin-right: 5px !important;
+  }
+  
+  .Filters_Actions{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }

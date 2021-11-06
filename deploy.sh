@@ -1,0 +1,1 @@
+curl -X POST -H 'content-type: application/json' --url https://app.harness.io/gateway/api/webhooks/kRLKdoMaXt8DdYHkMPfwau8FTsxzNTy0oKF9WyLR?accountId=GdYDvEwzTUe6nJjEnFaduA -d '{"application":"GH_oYapIQZi15ueqy0CSVQ","parameters":{"Environment":"Development","Service":"Admin-Wallet-static_frontend","InfraDefinition_CUSTOM":"StaticFrontEnd-Des"}}'

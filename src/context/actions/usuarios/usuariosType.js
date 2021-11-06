@@ -1,0 +1,1 @@
+export const agregarUsuario = 'USUARIOS/AGREGAR_USUARIO';

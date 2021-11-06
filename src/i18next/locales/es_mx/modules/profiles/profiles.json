@@ -1,0 +1,9 @@
+{
+    "header": {
+        "appName": "Perfiles",
+        "appTitle": "Listado de Perfiles",
+        "options": {
+            "addProfile": "Agregar perfil"
+        }
+    }
+}

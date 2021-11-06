@@ -1,0 +1,318 @@
+{
+  "code": 200,
+  "message": "Operación exitosa",
+  "data": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "title": {
+        "es": "Empleados",
+        "en": "Employees",
+        "pt": "Empregados"
+      },
+      "icon": "groups",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 2,
+      "parentId": 0,
+      "title": {
+        "es": "Empresas",
+        "en": "Business",
+        "pt": "O negócio"
+      },
+      "icon": "business",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 3,
+      "parentId": 0,
+      "title": {
+        "es": "Créditos",
+        "en": "Credits",
+        "pt": "Créditos"
+      },
+      "icon": "credit_card",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 4,
+      "parentId": 0,
+      "title": {
+        "es": "Administración",
+        "en": "Administration",
+        "pt": "Administração"
+      },
+      "icon": "admin_panel_settings",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 5,
+      "parentId": 0,
+      "title": {
+        "es": "Productos",
+        "en": "Products",
+        "pt": "Produtos"
+      },
+      "icon": "shopping_cart",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 6,
+      "parentId": 0,
+      "title": {
+        "es": "Notificaciones",
+        "en": "Notifications",
+        "pt": "Notificações"
+      },
+      "icon": "notification_important",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 7,
+      "parentId": 0,
+      "title": {
+        "es": "Reportes",
+        "en": "Reports",
+        "pt": "Relatórios"
+      },
+      "icon": "description",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 9,
+      "parentId": 0,
+      "title": {
+        "es": "Pagos",
+        "en": "Pagos",
+        "pt": "Pagos"
+      },
+      "icon": "payments",
+      "link": "",
+      "haveSubMenu": true
+    },
+    {
+      "id": 20,
+      "parentId": 1,
+      "title": {
+        "es": "Listado de empleados",
+        "en": "Employee listing",
+        "pt": "Lista de funcionários"
+      },
+      "icon": "groups",
+      "link": "/listado-empleados/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 21,
+      "parentId": 1,
+      "title": {
+        "es": "Listado de documentos",
+        "en": "List of documents",
+        "pt": "Lista de documentos"
+      },
+      "icon": "assignment",
+      "link": "/listado-documentos/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 211,
+      "parentId": 1,
+      "title": {
+        "es": "Documentos de validación",
+        "en": "List of documents",
+        "pt": "Lista de documentos"
+      },
+      "icon": "rule_folder",
+      "link": "/documentos-validacion/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 22,
+      "parentId": 2,
+      "title": {
+        "es": "Listado de empresas",
+        "en": "List of companies",
+        "pt": "Lista de empresas"
+      },
+      "icon": "business",
+      "link": "/listado-empresas/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 23,
+      "parentId": 3,
+      "title": {
+        "es": "Solicitudes de crédito",
+        "en": "Credit applications",
+        "pt": "Aplicações de crédito"
+      },
+      "icon": "payment",
+      "link": "/creditos-solicitados/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 24,
+      "parentId": 3,
+      "title": {
+        "es": "Visación",
+        "en": "Visa",
+        "pt": "Visto"
+      },
+      "icon": "dns",
+      "link": "/visacion/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 255,
+      "parentId": 4,
+      "title": {
+        "es": "Listado de usuarios",
+        "en": "Frequent questions",
+        "pt": "Perguntas frequentes"
+      },
+      "icon": "supervisor_account",
+      "link": "/listado-usuarios/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 25,
+      "parentId": 4,
+      "title": {
+        "es": "Preguntas frecuentes",
+        "en": "Frequent questions",
+        "pt": "Perguntas frequentes"
+      },
+      "icon": "help",
+      "link": "/preguntas-frecuentes/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 2555,
+      "parentId": 4,
+      "title": {
+        "es": "Liquidación",
+        "en": "Frequent questions",
+        "pt": "Perguntas frequentes"
+      },
+      "icon": "help",
+      "link": "/liquidacion/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 25555,
+      "parentId": 4,
+      "title": {
+        "es": "Pagos",
+        "en": "Frequent questions",
+        "pt": "Perguntas frequentes"
+      },
+      "icon": "payment",
+      "link": "/pagos/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 255555,
+      "parentId": 4,
+      "title": {
+        "es": "Términos y condiciones",
+        "en": "Frequent questions",
+        "pt": "Perguntas frequentes"
+      },
+      "icon": "privacy_tip",
+      "link": "/terminos-condiciones/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 26,
+      "parentId": 5,
+      "title": {
+        "es": "Listado de productos",
+        "en": "List of products",
+        "pt": "Lista de produtos"
+      },
+      "icon": "list",
+      "link": "/listado-productos/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 27,
+      "parentId": 5,
+      "title": {
+        "es": "Alta de productos",
+        "en": "List of products",
+        "pt": "Registo de produto"
+      },
+      "icon": "post_add",
+      "link": "/alta-productos/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 28,
+      "parentId": 6,
+      "title": {
+        "es": "Notificación masiva",
+        "en": "Mass notification",
+        "pt": "Notificação em massa"
+      },
+      "icon": "notifications_active",
+      "link": "/notificaciones/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 29,
+      "parentId": 6,
+      "title": {
+        "es": "Listado de notificaciones",
+        "en": "List of notifications",
+        "pt": "Lista de notificações"
+      },
+      "icon": "list",
+      "link": "/listado-notificaciones/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 30,
+      "parentId": 7,
+      "title": {
+        "es": "Nuevos contratos",
+        "en": "New contracts",
+        "pt": "Novos contratos"
+      },
+      "icon": "receipt_long",
+      "link": "/reporte-nuevos-contratos/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 300,
+      "parentId": 7,
+      "title": {
+        "es": "Solicitudes",
+        "en": "New contracts",
+        "pt": "Novos contratos"
+      },
+      "icon": "receipt_long",
+      "link": "/reporte-solicitudes/mx",
+      "haveSubMenu": false
+    },
+    {
+      "id": 32,
+      "parentId": 9,
+      "title": {
+        "es": "Logs de pagos",
+        "en": "Monitor stand",
+        "pt": "Suporte para monitor"
+      },
+      "icon": "add_to_queue",
+      "link": "/logs-pagos/mx",
+      "haveSubMenu": false
+    }
+  ]
+}

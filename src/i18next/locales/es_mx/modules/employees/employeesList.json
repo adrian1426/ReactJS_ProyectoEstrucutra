@@ -1,0 +1,70 @@
+{
+  "header": {
+    "appName": "Empleados",
+    "appTitle": "Listado de Empleados",
+    "options": {
+      "upload": "Cargar Empleados",
+      "send": "Enviar Correos"
+    }
+  },
+  "filters": {
+    "name": "Nombre..",
+    "company": "Seleccione empresa...",
+    "status": "Seleccione estatus...",
+    "dateStart": "Registro desde...",
+    "dateEnd": "Registro hasta...",
+    "actionApply": "Filtrar",
+    "actionClean": "Limpiar Filtros"
+  },
+  "table": {
+    "colId": "Folio",
+    "colName": "Nombre",
+    "colCode": "Código Empresa",
+    "colNoEmployee": "No. Empleado",
+    "colEmail": "Correo",
+    "colStatus": "Estatus",
+    "colMaxAmount": "Monto Máximo",
+    "colRFC": "RFC",
+    "colPayrollAmount": "Monto Nómina",
+    "colPeriodicity": "Periodicidad",
+    "colClabe": "Clabe",
+    "colEnableCredit": "Crédito AXS",
+    "colCreditAmount": "Monto AXS",
+    "colInstituteCode": "Código Institución",
+    "colIsActive": "Activo",
+    "colCreatedAt": "Creación",
+    "actionDetail": "Detalle del cliente",
+    "actionContract": "Contrato firmado",
+    "actionNotify": "Notificar",
+    "actionEdit": "Editar",
+    "actionDelete": "Borrar"
+  },
+  "editEmployee": {
+    "title": "Editar empleado: {{name}}",
+    "creditAXS": "Crédito AXS",
+    "creditAmount": "Monto del crédito",
+    "actionCancel": "Cancelar",
+    "actionAccept": "Aceptar"
+  },
+  "uploadEmployee": {
+    "textPrimary": "Carga de Empleados",
+    "textSecundary": "Resultado de la carga de empleados realizada: ",
+    "total": "Total de empleados recibidos:",
+    "new": "Nuevos:",
+    "updated": "Actualizados:",
+    "error": "Error al registrar:"
+  },
+  "confirmDelete": {
+    "textPrimary": "Eliminar Empleado",
+    "textSecundary": "¿Está seguro en dar de baja a <b>{{name}}</b>?"
+  },
+  "messages": {
+    "infoGetEmployee": "¡No se encontró información de empleados!",
+    "infoEmployeeFil": "!No se econtraron datos de empleados, Reiniciando tabla...!",
+    "errorUpload": "¡Error: {{detail}}!.",
+    "successEdit": "¡Empleado actualizado correctamente!.",
+    "errorEdit": "¡No se pudo actualizar el empleado!.",
+    "sucessDelete": "¡Empleado eliminado correctamente!.",
+    "errorDelete": "¡No se pudo eliminar el empleado!."
+  }
+}

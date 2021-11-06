@@ -1,0 +1,22 @@
+.Filters{
+    padding: 1rem;
+  }
+
+  .Form_Control{
+      width: 100%;
+  }
+
+  .Filters_Input_MulElement{
+    margin-right: 5px !important; 
+   }
+
+   .Filters_Input_MulElement input{
+    padding: .1rem 0 !important;
+   }
+
+   .Filters_Input_Element{
+    margin-right: 5px;
+  }
+  .Filters_Input_Element input{
+    padding: .1rem 0 !important;
+  }

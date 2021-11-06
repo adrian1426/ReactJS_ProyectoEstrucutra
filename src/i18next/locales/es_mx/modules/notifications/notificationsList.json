@@ -1,0 +1,40 @@
+{
+  "header": {    
+    "appName": "Notificaciones",
+    "appTitle": "Listado de Notificaciones"   
+  },
+    "filters": {
+        "user": "Usuario que programó",
+        "createdAtStart":"Fecha de creación desde",
+        "createdAtEnd":"Fecha de creación hasta",
+        "sendAtStart":"Fecha de envío desde",
+        "sendAtEnd":"Fecha de envío hasta",
+        "canceledAtStart":"Fecha de cancelación desde",
+        "canceledAtEnd":"Fecha de cancelación hasta",        
+        "actionApply": "Filtrar",
+        "actionClean": "Limpiar Filtros"
+      },
+      "table": {
+        "colCreationDate": "Fecha de creación",
+        "colCreationHour": "Hora de creación",
+        "colSendDate": "Fecha de envío",
+        "colSendHour": "Hora de envío",
+        "colCancelDate": "Fecha de cancelación",
+        "colCancelHour": "Hora de cancelación",
+        "colTotalSenders": "Destinatarios",
+        "colMessage": "Mensaje",
+        "colUser": "Usuario",
+        "actionDetail": "Detalle de la notificación",
+        "actionCancel": "Cancelar notificación"
+      },
+      "confirmCancel": {
+        "textPrimary": "Cancelar notificación",
+        "textSecundary": "¿Desea cancelar esta notificación?"
+      },
+      "messages": {
+        "infoGetNotificaciones": "¡No se encontró información de notificaciones!",      
+        "sucessCancel": "¡Notificación cancelada correctamente!.",
+        "errorCancel": "¡No se pudo cancelar la notificación!."
+      }
+
+}

@@ -1,0 +1,12 @@
+.Popper{
+  width: calc(100vw - 48px);
+  margin-left: 19px; 
+  margin-right: 19px;
+  z-index: 1100;
+}
+
+.Popper_Grow_Paper{
+  padding: 24px;
+  border-radius: 0px 0px 20px 20px !important;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2) !important;
+}

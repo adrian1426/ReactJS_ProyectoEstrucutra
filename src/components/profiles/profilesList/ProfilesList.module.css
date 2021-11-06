@@ -1,0 +1,85 @@
+.form{
+  width: 435px;
+}
+
+.Filter{
+  padding: 20px 10px 10px 10px;
+}
+
+.Filter_Input{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Filter_Actions{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Autocomplete{
+  width: 100%;
+  margin: 0px 4px;
+}
+
+.DateTextField{
+  width: 245px !important;
+  margin: 0px 4px !important;
+}
+
+.DateTextField input{
+  height: 20px;
+}
+
+.DateTextField label{
+  transform: translate(14px, 12px) scale(1);
+}
+
+.Filter_Actions_Buttom{
+  width: 180px;
+  margin: 0px 4px !important;
+}
+
+.selectRadio{
+  margin-top: 10px;
+}
+
+.selectItems{
+  border: 1px solid #AAA;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: auto;
+}
+
+.selectItems_Error{
+  border: 1px solid red;
+}
+
+.divItems{
+  max-height: 250px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    height: 40px;
+    margin-left: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

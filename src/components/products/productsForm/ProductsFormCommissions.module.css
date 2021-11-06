@@ -1,0 +1,9 @@
+.btnCommissions{
+    min-width: 230px !important;
+    max-height: 230px !important;
+    margin-top: 12px !important;
+}
+
+.tableCommissions{
+    margin-top: 15px;
+}

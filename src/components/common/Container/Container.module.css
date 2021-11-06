@@ -1,0 +1,39 @@
+label{
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #003B4A;
+    line-height: 22px;
+    align-items: center;    
+    display: flex;
+}
+
+.titleApplications
+{
+    width: auto;
+    height: 22px;
+    left: 40px;
+    top: 210px;
+    font-size: 20px;
+    
+  
+}
+.nameBreadCrumbs
+{
+    font-size: 14px;
+    opacity: 0.5;
+    color: #003B4A;
+}
+.subContainer
+{
+    min-height: 75vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.textBreadcrumbs
+{
+    font-family: sans-serif;
+    font-size: 10px;
+}
